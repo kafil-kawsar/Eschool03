@@ -13,14 +13,17 @@ header{
 background-color: #F0FFF0;
 padding: 5px 0;
 }
-.c_nav{
-
-}
-.logo{
-
-}
-.menu{
-
+.c_nav{}
+.logo{}
+.menu{}
+.book_btn {
+    margin: 10px  10px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    font-size: 16px;
+    line-height: 24px;
+    background: #fff;
 }
 .menu ul li a{
  font-style: normal;
@@ -112,7 +115,7 @@ padding-bottom: 100px;
     line-height: 24px;
 }
 /* feature end */
-/* course start */
+/*course start*/
 .course{
     padding-bottom: 100px;
 }
@@ -127,12 +130,13 @@ padding-bottom: 100px;
     margin-top: 60px;
     padding: 25px 20px 30px;
     color: #000000;
-    background-color: white;
+    background-color: #FFFFFF;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     border-radius: 18px;
 }
 .c_img{}
 .c_img img{
+    width: 100%;
     border-radius: 11px;
 }
 .c_item h2{
@@ -146,17 +150,13 @@ padding-bottom: 100px;
 }
 .c_item a{
     margin: 20px 0 35px;
-    padding: 8px 28px ;
-   
+    padding: 8px 28px;
 }
 .c_footer{
-overflow: hidden;
+    overflow: hidden;
 }
-.date{}
 .date ul{}
-.date ul li{
-
-}
+.date ul li{}
 .date ul li img{
     width: 16px;
 }
@@ -167,51 +167,60 @@ overflow: hidden;
 .seat ul li img{
     width: 18px;
 }
-.seat{}
-/* course end */
-/* Testimonial Start */
-.testimonial {
-    padding-bottom: 100px;
+/*course end*/
+/*blog start*/
+.blog_item{
+    padding: 70px 0 125px;
 }
-.car_m{margin-top: 75px;}
-.t_img {
-    width: 150px;
+.people_img{
+    text-align: end;
 }
-.t_img img{
+.people_img img{
+    border-radius: 60px;
 }
-
-.t_text {
+.blog_text{
+    padding: 0 130px 0 14px;
 }
-.t_text p{
+.blog_text p{
     line-height: 30px;
 }
-
-/* Testimonial End */
-
-/* Footer Start */
-footer {
+/*blog end*/
+/*footer start*/
+footer{
+    padding: 55px 0 40px;
     background-color: #282531;
-    padding: 20px 0;
-    text-align: center;
-    color: #fff;
-    font-size: 16px;
+    line-height: 30px;
 }
-
-#footer {
-    background-color: #282531;
-    margin-top: 50px;
-    padding: 90px 0 60px;
+.f_left{}
+.f_left p{
+    padding-right: 45px;
+    color: white;
 }
-.footer-text p {
+.f_right{
     font-size: 16px;
-    color: #dadada;
-    text-align: start;
+    padding-left: 80px;
 }
-.footer-text p a {
-    font-size: 16px;
-    color: #acacac;
-    text-align: start;
+.f_2{}
+.f_2 p{}
+.f_2 p a{
+    color: white;
     text-decoration: none;
-    transition: 0.2s;
 }
+.bd{
+    font-size: 18px;
+    font-weight: 700; 
+}
+.p_author{
+    margin-top: 75px;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+}
+.author p{
+    margin-top: 31px;
+    color: white;
+    text-align: center;
+}
+/*footer end*/
+
 /* Footer End */
